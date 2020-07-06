@@ -67,7 +67,7 @@ The commands below are adopted from https://get-coursier.io/docs/cli-installatio
     ``` 
     Type `Y` as answer to questions that you get. When everything is installed, **reboot** your computer and then you should be able to start the Scala REPL by typing `scala` in a powershell window.
 
-  * **MacOS**: *[this did not install JDK 11 but old JDK 8]* open Terminal (click magnifyer and search for Terminal) and copy-paste this in one line and press enter:
+  * **MacOS**: *[at the time of writing this did not install JDK 11 but old JDK 8]* open Terminal (click magnifyer and search for Terminal) and copy-paste this in one line and press enter:
     ```
     curl -fLo cs https://git.io/coursier-cli-macos && chmod +x cs && (xattr -d com.apple.quarantine cs || true) &&
       ./cs setup
