@@ -18,7 +18,7 @@ run
 
 * Click the curly metals *m* logo in the left bar
 * Click "New Scala Project" under BUILD COMMANDS
-* Scroll down and select "**Custom** *Enter template manually*"
+* Scroll down almost to the bottom and select "**Custom** *Enter template manually*"
 * Enter `lunduniversity/hello-scala.g8` and press enter 
 * Click on "Ok"
 * Confirm again with Enter
