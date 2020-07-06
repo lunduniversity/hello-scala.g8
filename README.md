@@ -3,7 +3,7 @@ A [Gitter8](http://www.foundweekends.org/giter8/index.html) template for a minim
 
 ## Usage
 
-You need to have Scala tools installed as described in the "Preparations" section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
+You need to have Scala tools installed as described in the [Preparations](https://github.com/lunduniversity/hello-scala.g8#preparations-install-scala-tools) section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
 
 ### In terminal
 Copy-paste or type each line at a time followed by enter, after waiting for each command to finnish:
