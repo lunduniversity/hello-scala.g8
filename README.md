@@ -3,7 +3,16 @@ A [Gitter8](http://www.foundweekends.org/giter8/index.html) template for a minim
 
 ## Usage
 
-You need to have Scala tools installed as described in the "Preparations" section below. Then you can use this template within VS Code with Scala (Metals) or in terminal as follows.
+You need to have Scala tools installed as described in the "Preparations" section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
+
+### In terminal
+Copy-paste or type each line at a time followed by enter, after waiting for each command to finnish:
+```
+sbt new lunduniversity/hello-scala.g8
+cd hello-scala
+sbt
+run
+```
 
 ### In VS Code with Scala (Metals)
 
@@ -17,29 +26,21 @@ You need to have Scala tools installed as described in the "Preparations" sectio
 * In new window, wait for stuff to download and start and then click the button **Import** when question if *import build* comes up in the lower right corner.
 * Open the file called `Main.scala` and press *run* in the "run | debug" field just above the `def main` line. 
 
-### In terminal
-Copy-paste or type each line at a time followed by enter, after waiting for each command to finnish:
-```
-sbt new lunduniversity/hello-scala.g8
-cd hello-scala
-sbt
-run
-```
 
 ## Preparations
 
 ### Install Scala tools:
-  * **Windows**: open powershell and copy-paste these two lines, one line at a time followed by enter:
+  * **Windows**: open Powershell and copy-paste these two lines, one line at a time, each followed by pressing Enter:
     ```
     bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
     .\cs setup
     ``` 
-  * **MacOS**: open terminal and copy-paste this in one line and press enter:
+  * **MacOS**: open Terminal and copy-paste this in one line and press enter:
     ```
     curl -fLo cs https://git.io/coursier-cli-macos && chmod +x cs && (xattr -d com.apple.quarantine cs || true) &&
       ./cs setup
     ```
-  * **Linux**: open terminal (Ctrl+Alt+T) and copy-paste this in one line and press enter:
+  * **Linux**: open Terminal (Ctrl+Alt+T) and copy-paste this in one line and press enter:
     ```
     wget -O cs https://git.io/coursier-cli-linux && chmod +x cs && ./cs setup
     ```
