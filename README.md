@@ -3,7 +3,7 @@ A [Gitter8](http://www.foundweekends.org/giter8/index.html) template for a minim
 
 ## Usage
 
-You need to have Scala tools installed as described in the [Preparations](https://github.com/lunduniversity/hello-scala.g8#preparations-install-scala-tools) section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
+You need to have Scala tools installed as described in the [Preparations](https://github.com/lunduniversity/hello-scala.g8#preparations) section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
 
 ### How to use this template in terminal:
 Type this in terminal to create a scala project:
@@ -47,7 +47,7 @@ run
 * Open the file called `main.scala` and press *run* in the "run | debug" field just above the `def run` line. 
 
 
-## Preparations: install `jdk`, `sbt`, VS `code`
+## Preparations
 
 1. Install **OpenJDK 11** for your platform from https://adoptopenjdk.net/
 
