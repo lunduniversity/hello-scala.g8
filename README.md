@@ -1,5 +1,5 @@
 # hello-scala.g8
-A [Gitter8](http://www.foundweekends.org/giter8/index.html) template for a minimal Scala project with a minimal build file.
+A template for a minimal Scala project with a minimal build file.
 
 ## Usage
 
@@ -63,5 +63,9 @@ run
 
 4. From inside VS `code` install the extension "metals" as described here: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
+## References
+* Scala home: https://www.scala-lang.org/
+* Official Scala template: https://github.com/scala/scala3.g8
+* Giter8: http://www.foundweekends.org/giter8/index.html
 
 
