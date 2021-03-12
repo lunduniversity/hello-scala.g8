@@ -11,6 +11,7 @@ project/plugins/project/
 *.class
 *.log
 
+
 # sbt specific
 .cache
 .history
@@ -30,3 +31,7 @@ project/boot/
 # Metals specific
 .metals
 project/metals.sbt
+.vscode
+.bsp
+.dotty-ide-disabled
+.bloop
