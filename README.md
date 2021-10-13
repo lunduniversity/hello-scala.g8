@@ -53,7 +53,7 @@ run
 
 2. Install the Scala build tool **sbt**  
       - Windows: https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.msi
-      - Linux: (skip the first three lines below if you already have sdkman installed)
+      - Linux and WSL: (skip the first three lines below if you already have sdkman installed)
         ```
         sudo apt install curl
         curl -s "https://get.sdkman.io" | bash
