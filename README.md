@@ -49,7 +49,7 @@ run
 
 ## Preparations
 
-1. Install **OpenJDK 11** for your platform from https://adoptopenjdk.net/
+1. Install **OpenJDK 11** for your platform from https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot
 
 2. Install the Scala build tool **sbt**  
       - Windows: https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.msi
