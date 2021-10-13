@@ -52,7 +52,7 @@ run
 1. Install **OpenJDK 11** for your platform from https://adoptopenjdk.net/
 
 2. Install the Scala build tool **sbt**  
-      - Windows: https://github.com/sbt/sbt/releases/download/v1.4.8/sbt-1.4.8.msi
+      - Windows: https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.msi
       - Linux: https://www.scala-sbt.org/download.html
       - Mac: (skip the first command below if you already have homebrew installed)
         ```
