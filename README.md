@@ -53,11 +53,20 @@ run
 
 2. Install the Scala build tool **sbt**  
       - Windows: https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.msi
-      - Linux: https://www.scala-sbt.org/download.html
-      - Mac: (skip the first command below if you already have homebrew installed)
+      - Linux: (skip the first three lines below if you already have sdkman installed)
         ```
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        brew install sbt
+        sudo apt install curl
+        curl -s "https://get.sdkman.io" | bash
+        source "$HOME/.sdkman/bin/sdkman-init.sh"
+        sdk install scala
+        sdk install sbt
+        ```
+      - Mac: (skip the first two lines below if you already have sdkman installed)
+        ```
+        curl -s "https://get.sdkman.io" | bash
+        source "$HOME/.sdkman/bin/sdkman-init.sh"
+        sdk install scala
+        sdk install sbt
         ``` 
 3. Install VS `code` from here: https://code.visualstudio.com/download
 
