@@ -1,5 +1,12 @@
 # hello-scala.g8
-A template for a minimal Scala project with a minimal build file.
+A template for a minimal Scala project with a minimal build file for the advanced [`sbt`](https://www.scala-sbt.org/download) build tool.
+
+However, you may prefer to use [`scala-cli`](https://scala-cli.virtuslab.org/install) (instead of the more complex `sbt` used by this template) like so:
+```scala
+$ echo '@main def run = println("Hello Scala 3!")' | cat >hello.scala
+$ scala-cli run hello.scala
+Hello Scala 3!
+```
 
 ## Usage
 
