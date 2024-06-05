@@ -10,7 +10,7 @@ with this code in file `hello.scala`
 @main def myMainProgram = println("Hello Scala 3!")
 ```
 
-## Usage
+## Use this template with sbt
 
 You need to have Scala tools installed as described in the [Preparations](https://github.com/lunduniversity/hello-scala.g8#preparations) section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
 
