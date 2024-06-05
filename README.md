@@ -49,25 +49,10 @@ run
 
 ## Preparations
 
-1. Install **OpenJDK 11** for your platform from https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot
+1. Install latest **OpenJDK** LTS version for your platform from https://adoptium.net/?variant=openjdk21&jvmVariant=hotspot
 
-2. Install the Scala build tool **sbt**  
-      - Windows: https://github.com/sbt/sbt/releases/download/v1.5.5/sbt-1.5.5.msi
-      - Linux and WSL: (skip the first three lines below if you already have sdkman installed)
-        ```
-        sudo apt install curl
-        curl -s "https://get.sdkman.io" | bash
-        source "$HOME/.sdkman/bin/sdkman-init.sh"
-        sdk install scala
-        sdk install sbt
-        ```
-      - Mac: (skip the first two lines below if you already have sdkman installed)
-        ```
-        curl -s "https://get.sdkman.io" | bash
-        source "$HOME/.sdkman/bin/sdkman-init.sh"
-        sdk install scala
-        sdk install sbt
-        ``` 
+2. Install the Scala build tool **sbt**  from https://www.scala-sbt.org/download
+
 3. Install VS `code` from here: https://code.visualstudio.com/download
 
 4. From inside VS `code` install the extension "metals" as described here: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
