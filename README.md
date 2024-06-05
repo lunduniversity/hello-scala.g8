@@ -7,7 +7,7 @@ scala-cli run hello.scala --scala-version 3
 ```
 with this code in file `hello.scala`
 ```scala
-@main def MyMain = println("Hello Scala 3!")
+@main def myMainProgram = println("Hello Scala 3!")
 ```
 
 ## Usage
