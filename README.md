@@ -10,11 +10,11 @@ with this code in file `hello.scala`
 @main def myMainProgram = println("Hello Scala 3!")
 ```
 
-## Use this template
+## How to use this template
 
 You need to have Scala tools installed as described in the [Preparations](https://github.com/lunduniversity/hello-scala.g8#preparations) section below. Then you can use this template in terminal or within VS Code with Scala (Metals), as follows.
 
-### Use this template in terminal
+### How to use this template in terminal with `sbt`
 Type this in terminal to create a scala project:
 ```
 sbt new lunduniversity/hello-scala.g8
@@ -43,7 +43,7 @@ sbt
 run
 ```
 
-### Use this template in [VS `code`](https://code.visualstudio.com/download) with [metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
+### How to use this template in [VS `code`](https://code.visualstudio.com/download) with [metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
 
 * Click the curly metals *m* logo in the left bar
 * Click "New Scala Project" under BUILD COMMANDS
