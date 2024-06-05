@@ -23,17 +23,17 @@ Wait for a rather long while. After a while the template has been downloaded fro
 ```
 $ sbt new lunduniversity/hello-scala.g8
 [info] Loading settings for project global-plugins from gpg.sbt ...
-[info] Loading global plugins from /home/bjornr/.sbt/1.0/plugins
-[info] Loading project definition from /home/bjornr/tmp/project
+[info] Loading global plugins from /home/myUser/.sbt/1.0/plugins
+[info] Loading project definition from /home/myUser/tmp/project
 [info] Loading settings for project tmp from build.sbt ...
-[info] Set current project to tmp (in build file:/home/bjornr/tmp/)
-[info] Set current project to tmp (in build file:/home/bjornr/tmp/)
+[info] Set current project to tmp (in build file:/home/myUser/tmp/)
+[info] Set current project to tmp (in build file:/home/myUser/tmp/)
 
 Minimal Scala app with minimal build file 
 
 name [hello]: myProjectName
 
-Template applied in /home/bjornr/tmp/./myProjectName
+Template applied in /home/myUser/tmp/./myProjectName
 $
 ```
 Now you can navigate to a folder with the name you gave the project and start sbt and run your Scala app by typing these commands:
