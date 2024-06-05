@@ -4,7 +4,7 @@ A template for a minimal Scala project with a minimal build file for the advance
 However, you may prefer to use [`scala-cli`](https://scala-cli.virtuslab.org/install) (instead of the more complex `sbt` used by this template) like so:
 ```bash
 $ echo '@main def run = println("Hello Scala 3!")' | cat >hello.scala
-$ scala-cli run hello.scala
+$ scala-cli run hello.scala --scala-version 3
 Hello Scala 3!
 ```
 
