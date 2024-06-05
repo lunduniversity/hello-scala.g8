@@ -19,7 +19,7 @@ Type this in terminal to create a scala project:
 ```
 sbt new lunduniversity/hello-scala.g8
 ```
-Wait a while. After a while the template has been downloaded from github and you are prompted to give a name for your scala project. The output looks something like this:
+Wait for a rather long while. After a while the template has been downloaded from github and you are prompted to give a name for your scala project. The output looks something like this:
 ```
 $ sbt new lunduniversity/hello-scala.g8
 [info] Loading settings for project global-plugins from gpg.sbt ...
