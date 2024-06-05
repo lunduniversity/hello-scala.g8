@@ -58,7 +58,7 @@ run
 
 ## Preparations
 
-1. Install latest **OpenJDK** LTS version for your platform from https://adoptium.net/?variant=openjdk21&jvmVariant=hotspot
+1. Install latest **OpenJDK** LTS version for your platform from [adoptium.net](https://adoptium.net/temurin/releases/?variant=openjdk21&jvmVariant=hotspot&package=jdk)
 
 2. Install the Scala build tool **sbt**  from https://www.scala-sbt.org/download
 
